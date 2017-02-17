@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="Got questions? We have answers.">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="uwvra.css" rel="stylesheet" />
+		<link href="http://www.w3schools.com/lib/w3.css" rel="stylesheet">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+		<title>FAQ</title>
+	</head>
+	<body>
+
+		<header class="navbar-fixed-top"> <!-- get rid of this class if no fixed nav-->
+			<div class="container help black">
+				<div id="logos">
+					<div id="logo">
+						<a href="index.html"><img id="logopicture" src="https://drive.google.com/uc?id=0B42H3hqQ4L82YTEzVzRTM0Z0UzA"/></a>
+					</div>
+					<div id="facebookplacement">
+						<a href="https://www.facebook.com/groups/uwvra/"><img id="facebooklogo" src="https://drive.google.com/uc?id=0B42H3hqQ4L82LWEyekwtRWc4XzQ"/></a>
+					</div>
+				</div>
+				<nav>
+					<ul id="topnav" class="topnavi">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html">About Us</a></li>
+						<li><a href="apex2017/index.html">APEX 2017</a></li>		
+						<li><a href="events.html">Events</a></li>
+					    <li><a href="faq.html">FAQ</a></li>
+					    <li class="icon"><a href="javascript:void(0);" onclick="myFunction()">&#9776;</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<script>
+			function myFunction() {
+			    var x = document.getElementById("topnav");
+			    if (x.className === "topnavi") {
+			        x.className += " responsive";
+			    } else {
+			        x.className = "topnavi";
+			    }
+			}
+	</script>
+		<section class="showcasetwo">
+			<div class="container">
+				<h1>FREQUENTLY ASKED QUESTIONS</h1>
+			</div>
+		</section>
+			<div class="container">
+				<div id="questions">
+						<button class="accordion">What is VR (Virtual Reality)?</button>
+						<div class="panel">
+							<p>Virtual reality is an exciting technology that allows people to immerse themselves in a 3D environment through the use of special headset. The headset can track the user's headmovements, and the controllers can track hand movements, allowing the person to interact with the virtual world like as if it were real </p>
+						</div>
+						<button class="accordion">When does the club meet?</button>
+						<div class="panel">
+							<p>Our meetings are held Wednesdays at 7PM in the Comotion MakerSpace (Fluke Hall Suite 215) We frequently host other events too, check our Facebook page to stay updated</p>
+						</div>
+						<button class="accordion">Why was the club formed?</button>
+						<div class="panel">
+							<p>Virtual Reality is currently undergoing a massive revolution in that the technology is at a point where it can meet commercial success, thus being at a point where it can be used in many applications. Virtual Reality technology is barely getting started, and it will increasingly be used in the future. We want to be ahead of the curve, and expose this technology to people so they can understand its benefits and applications. We intend to help people get involved with this technology through workshops, coding tutorials, hardware engineering, and video-game playing!</p>
+						</div>
+						<button class="accordion">I’ve never experienced virtual reality before, can I come? </button>
+						<div class="panel">
+							<p>Yes, we would love to give you your first experience in VR!</p>
+						</div>
+						<button class="accordion">Do I need to be a software designer to join the club?</button>
+						<div class="panel">
+							<p>No, not at all. People from all disciplines come to the VRA to learn more about and enjoy virtual reality.</p>
+						</div>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<div class="container">
+
+			</div>
+		</footer>
+
+		<script>
+
+	var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].onclick = function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight){
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  }
+}
+
+	</script>
+	</body>
+</html>

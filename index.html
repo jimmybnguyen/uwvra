@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content=" We are the University of Washington's Virtual Reality Association, where we make the virtual world a reality">
+        <meta name="keywords" content="VR, Virtual, Reality, Vive, HTC, Oculus, Rift, Facebook, Microsoft, Hololens, Augmented, Mixed, Unity3D, Unreal, University, Washington, Seattle">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="uwvra.css" rel="stylesheet" />
+		<link href="http://www.w3schools.com/lib/w3.css" rel="stylesheet">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+		<title>UW Virtual Reality Association</title>
+	</head>
+	<body>
+		<script>
+			
+				// on scroll, 
+			    $(window).on('scroll',function(){
+
+			    // we round here to reduce a little workload
+			    var stop = Math.round($(window).scrollTop());
+
+			    if (stop > 100) {
+			        $('.help').addClass('past-main');
+			    } else if(stop < 100) {
+			        $('.help').removeClass('past-main');
+			    }
+
+			});	
+			
+		</script>
+		<header class="navbar-fixed-top"> <!-- get rid of this class if no fixed nav-->
+			<div class="container help">
+				<div id="logos">
+					<div id="logo">
+						<a href="index.html"><img id="logopicture" src="https://drive.google.com/uc?id=0B42H3hqQ4L82YTEzVzRTM0Z0UzA"/></a>
+					</div>
+					<div id="facebookplacement">
+						<a href="https://www.facebook.com/groups/uwvra/"><img id="facebooklogo" src="https://drive.google.com/uc?id=0B42H3hqQ4L82LWEyekwtRWc4XzQ"/></a>
+					</div>
+				</div>
+				<nav>
+					<ul id="topnav" class="topnavi">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html">About Us</a></li>
+						<li><a href="apex2017/index.html">APEX 2017</a></li>		
+						<li><a href="events.html">Events</a></li>
+					    <li><a href="faq.html">FAQ</a></li>
+					    <li class="icon"><a href="javascript:void(0);" onclick="myFunction()">&#9776;</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<script>
+			function myFunction() {
+			    var x = document.getElementById("topnav");
+			    if (x.className === "topnavi") {
+			        x.className += " responsive";
+			    } else {
+			        x.className = "topnavi";
+			    }
+			}
+	</script>
+		<section id="showcase">
+			<div class="container">
+				<h1>UW Virtual Reality Association</h1>
+				<p>Welcome. Our club offers the best Virtual Reality has to offer. The future is now.<a id="facebook" href="https://www.facebook.com/groups/uwvra/"> Join our Facebook Group!</a></p>
+			</div>
+		</section>
+		<section id="virtualreality">
+			<div class="container">
+				<h2>The technology we work on (and have fun with)</h3>
+				<div class="box">
+					<img src="https://drive.google.com/uc?id=0B42H3hqQ4L82eXhHTVhOcnlicDA" />
+					<h3>Oculus Rift</h3>
+					<p>The Oculus Rift is a very capable virtual reality device. Like the HTC Vive, it is currently wired.</p>
+				</div>
+				<div class="box">
+					<img src="https://drive.google.com/uc?id=0B42H3hqQ4L82S3VpVmNReDM5SGs" />
+					<h3>HTC Vive</h3>
+					<p>The HTC Vive is the current king of virtual reality. The headset is wired, and we are working on making
+						it wireless. When we need a break from that, we play a few rounds of Space Pirates.</p>
+				</div>
+				<div class="box">
+					<img src="https://drive.google.com/uc?id=0B42H3hqQ4L82bUhZR0V4cFpzbWM" />
+					<h3>Microsoft HoloLens</h3>
+					<p>HoleLens is a very exciting augmented reality headset. Augmented Reality is different from virtual reality in that
+						augmented reality adds virtual graphics to one's view of the real world.</p>
+				</div>
+			</div>
+		</section>
+		<section id="slideshow">
+			<div class="container">
+				<h2>The Latest</h2>
+				<div class="w3-content w3-display-container">
+					<img class="myslides" src="https://drive.google.com/uc?id=0B3C9rmEE44F6MHhyUV9nOGNBSUk" style="width:40%" text-align="center"/>
+					<img class="myslides" src="https://drive.google.com/uc?id=0B3C9rmEE44F6MVZ1dlk5MFAyd1U" style="width:40%"/>
+					<img class="myslides" src="https://drive.google.com/uc?id=0B3C9rmEE44F6MDNLNzJiN3JzMTA" style="width:40%"/>
+					<img class="myslides" src="https://drive.google.com/uc?id=0B3C9rmEE44F6TWYtRGFqSmFzZkk" style="width:40%"/>
+					<img class="myslides" src="https://drive.google.com/uc?id=0B3C9rmEE44F6TjRPSmxIZ2Y0Ync" style="width:40%"/>
+					<img class="myslides" src="https://drive.google.com/uc?id=0B3C9rmEE44F6N1dHMWZrdkRtdjQ" style="width:40%"/>
+					<img class="myslides" src="https://drive.google.com/uc?id=0B3C9rmEE44F6RkhPN2NkX2hsN3c" style="width:40%"/>
+					<img class="myslides" src="https://drive.google.com/uc?id=0B3C9rmEE44F6dklCbWl4M3Y5RG8" style="width:40%"/>
+					<img class="myslides" src="https://drive.google.com/uc?id=0B3C9rmEE44F6cHpWN19GbzYzSjA" style="width:40%"/>
+					<img class="myslides" src="https://drive.google.com/uc?id=0B3C9rmEE44F6b293OEF0TDdqV2s" style="width:40%"/>
+					<img class="myslides" src="https://drive.google.com/uc?id=0B3C9rmEE44F6SklhOUdCb3JyMVk" style="width:40%"/>
+					<img class="myslides" src="https://drive.google.com/ud?id=0B3C9rmEE44F6TXlpckRLWm40STA" style="width:40%"/>
+					<img class="myslides" src="https://drive.google.com/uc?id=0B3C9rmEE44F6SHdoeFV2ZWZYS28" style="width:40%"/>
+					<a class="w3-btn-floating w3-display-left" onclick="plusDivs(-1)">&#10094;</a>
+		  			<a class="w3-btn-floating w3-display-right" onclick="plusDivs(1)">&#10095;</a>
+				</div>
+			</div>
+		</section>
+
+		<footer>
+			<div class="container">
+
+			</div>
+		</footer>
+		<script>
+			var slideIndex = 1;
+			showDivs(slideIndex);
+
+			function plusDivs(n) {
+			  showDivs(slideIndex += n);
+			}
+
+			function showDivs(n) {
+			  var i;
+			  var x = document.getElementsByClassName("myslides");
+			  if (n > x.length) {slideIndex = 1}    
+			  if (n < 1) {slideIndex = x.length}
+			  for (i = 0; i < x.length; i++) {
+			     x[i].style.display = "none";  
+			  }
+			  x[slideIndex-1].style.display = "block";  
+			}
+		</script>
+	</body>
+</html>

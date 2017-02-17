@@ -1,0 +1,296 @@
+body {
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+	background: #11B0D8;
+}
+
+.container {
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+header, footer {
+	color:#ffffff;
+	min-height: 70px;
+}
+
+footer {
+	background-color: #000000;
+}
+
+header a {
+	color:#ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+header ul {
+	margin: 0;
+	padding: 0;
+
+}
+
+header li {
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+
+.black {
+	background-color: #000000;
+}
+
+.help {
+	width: 100%;
+}
+.past-main {
+	width: 100%;
+	background-color: #000000;
+	color:#ffffff;
+}
+#logo {
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+header #logo, header #facebookplacement {
+	float: left;
+}
+
+#facebookplacement img {
+	padding-top: 42px;
+	padding-left: 10px;
+}
+header nav {
+	float:right;
+	margin-top: 20px;
+}
+.smallcalendar {
+	display: none;
+}
+#showcase {
+	min-height: 600px;
+	background: url("https://drive.google.com/uc?id=0B42H3hqQ4L82MWtpaVB6TER0Z2c") no-repeat center center fixed;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
+    color: #ffffff;
+}
+
+#showcase .container h1 {
+	margin-top: 20%;
+	margin-bottom: 2%;
+}
+
+#virtualreality {
+	padding-top: 20px;
+	text-align: center;
+	clear: both;
+	background: #FFFFFF;
+}
+
+#virtualreality .box {
+	float: left;
+	width: 33%;
+	padding:15px;
+}
+li a:hover {
+	color: #60747D;
+	text-decoration: none;
+}
+
+a#facebook:hover {
+	text-decoration: none;
+}
+
+a#facebook {
+	color:#11B0D8;
+}
+
+#slideshow {
+	padding-top: 10px;
+	text-align: center;
+	background: #11B0D8;
+}
+.myslides {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.showcasetwo {
+	min-height: 350px;
+	background: url("https://drive.google.com/uc?id=0B42H3hqQ4L82aXFHekstTG54dG8");
+	background-size: cover;
+	background-position: 80px 10px;
+}
+
+.showcasetwo h1 {
+	text-align: center;
+	margin-top: 115px;
+	color: #ffffff;
+	font-style: bold;
+	font-family: 'VT323', monospace;
+	font-size: 55px;
+}
+
+#showcase h1 {
+	font-family: 'VT323', monospace;
+	font-size: 80px;
+}
+
+.container p {
+	font-size: 15px;
+}
+
+#calendar {
+	margin-left: 180px;
+}
+
+#statement {
+	color: #FFFFFF;
+	padding-top: 20px;
+}
+
+#statement h3 {
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+button.accordion {
+	background-color: #000000;
+	color: #FFFFFF;
+	cursor: pointer;
+	border-color: #333333;
+	border-radius: 5px;
+	outline: none;
+	width:100%;
+	text-align: left;
+	padding: 18px;
+	transition: 0.4s;
+}
+
+button.accordion:hover, button.accordion.active {
+    background-color: #333333;
+}
+
+div.panel {
+	padding: 0 18px;
+	background-color: #FFFFFF;
+	margin-bottom: 0;
+	max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+button.accordion:after {
+    content: '\002B';
+    color: #FFFFFF;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+button.accordion.active:after {
+    content: "\2212";
+}
+
+#questions {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+li.icon {
+	display: none;
+}
+
+@media(max-width: 768px) {
+	header #logo, header nav, header #facebookplacement, header nav li, #virtualreality .box {
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+
+	header #logo {
+		width: 100px;
+		border-radius: 10px 10px 10px 10px;
+	}
+
+	header {
+		background-color: #000000;
+		margin-bottom: 1px;
+	}
+
+	#showcase h1 {
+		padding-top: 130px;
+	}
+
+	#showcase {
+		float: right;
+	}
+	#virtualreality .box {
+		margin-top: 0px;
+	}
+	.showcasetwo h1 {
+		padding-top: 90px
+	}
+
+	.showcasetwo {
+		background: url("https://drive.google.com/uc?id=0B42H3hqQ4L82QVVuT243by16ZWc");
+		background-size: contain;
+		background-position: 0 180px;
+	}
+
+	.box img {
+		width: 150px;
+	}
+
+	.bigcalendar {
+		display: none;
+	}
+
+	.smallcalendar {
+		display: block;
+	}
+
+	#calendar {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+
+	#topnav {
+		margin-top: 80px
+		padding-top 80px;
+	}
+
+@media screen and (max-width: 768px) {
+	ul.topnavi li {
+		display:none;
+	}
+
+	ul.topnavi li.icon {
+		float: right;
+		display: inline-block;
+	}
+}
+
+@media screen and (max-width:768px) {
+  ul.topnavi.responsive {position: relative;}
+  ul.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnavi.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnavi.responsive li a {
+    display: block;
+    text-align: left;
+  }
+}
