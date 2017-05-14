@@ -61,6 +61,11 @@ p {
     margin-bottom: 1em;
 }
 
+a.footer {
+    color: #ffffff;
+    text-decoration: none;
+}
+
 .center {
     text-align: center;
 }
